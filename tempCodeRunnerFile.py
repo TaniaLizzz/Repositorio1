@@ -1,1 +1,0 @@
-print("Estoy estudiando " + input("¿Qué estás estudiando? "))

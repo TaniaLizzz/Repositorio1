@@ -1,0 +1,72 @@
+# string (str) "hola",'123'
+# integer(int) 150, -15,0
+# floating(float) 1.25, -95.1  
+# ctirl }
+#No es tipado
+---------------------------------------------------------------------------------------------
+LISTAS: colección ordenada de objetos, mutables  (pueden cambiar los datos)
+
+(list)["juan","Pablo"]
+            ["juan","123"]
+            
+listas(list) ["sal",1,-3,4.5,"marte", 0]
+                0   1  2  3    4      5     (indices)
+
+---------------------------------------------------------------------------------------------
+DICCIONARIOS: pares de palabras agrupadas
+
+(dic) {'color':'rojo','arte':'cine'}
+                    clave   valor
+
+---------------------------------------------------------------------------------------------
+TUPLAS: conjunto de elementos inmutables
+(tuple) ('lun','mar','mier','jue','vier')
+
+---------------------------------------------------------------------------------------------
+SET O CONJUTOS:  conjunto ordenado de elementos únicos e irrepetibles
+(set) {'a','b','c'}
+
+---------------------------------------------------------------------------------------------
+BOOLEANOS: solo uede tener dos valores, verdadero o falso
+(bool) True, False
+
+-------------------------------------------------------------------------------------------------------------
+VARIABLE: espacio en memoria, que se crea para almacenar un valor o contenidoy ese valo puede varias
+
+los nombres de las variables
+perro = 'Simba'   (Guarda un string)
+mi_perro = 'Simba'
+p = 'Simba'
+print(p)
+
+## En otro lenguaje
+## string perro = 'Simba'
+
+REGLA 1: legible
+nombre_perro = 'Simba'
+
+REGLA 2: unidad
+nombre de estudiante ='Juan'   --ERROR
+nombre_de_estudiante = 'Juan'  CORRECTO
+
+REGLA 3: hispanismos
+arbol = 'Pino'
+musica ='Rock'
+anios = 34
+
+REGLA 4: números (preferible no utilizar números)
+mes_8 = 'agosto' CORRECTO
+8_mes = 'agosto' --INCORRECTO
+
+REGLA 5:No nombrar con signos
+
+REGLA 6: palabras clave (no colocar palabras reservadas )
+print = 'perro' INCORRECTO
+
+-------------------------------------------------------------------------------------------------------------
+LISTAS  mutables, ordenado, duplicados
+TUPLAS  ordenado, duplicados
+SETS mutable
+DICCIONARIOS  mutable, tiene su propio ordenamiento, pueden generarse duplicaciones
+
+-------------------------------------------------------------------------------------------------------------
