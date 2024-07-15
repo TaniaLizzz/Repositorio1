@@ -70,3 +70,7 @@ SETS mutable
 DICCIONARIOS  mutable, tiene su propio ordenamiento, pueden generarse duplicaciones
 
 -------------------------------------------------------------------------------------------------------------
+CASTING: proceso de convertir un tipo de dato en otro
+
+CONVERSION IMPLICITA
+CONVERSION EXPLICITA: el usuario debe hacer algo para convertir dato
