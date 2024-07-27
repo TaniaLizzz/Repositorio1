@@ -74,3 +74,62 @@ CASTING: proceso de convertir un tipo de dato en otro
 
 CONVERSION IMPLICITA
 CONVERSION EXPLICITA: el usuario debe hacer algo para convertir dato
+-------------------------------------------------------------------------------------------------------------
+FORMATEAR CADENAS
+FUNCION FORMAT: posiciones de las variables entre corchetes {}, luego del string llama a las variables
+CADENAS LITERALES (f-strings) anticipar la concatenacion de variables anteponiendo f al string
+-------------------------------------------------------------------------------------------------------------
+OPERADORES MATEMÁTICOS
+suma +
+resta -
+multiplicacion *
+division /
+cociente (divison al piso) //
+Resto(módulo)  %
+potencia **
+Raíz cuadrada **0.5
+-------------------------------------------------------------------------------------------------------------
+REDONDEO
+round(number,ndigite) valor a redondear, cantidade de decimales
+se omite si el resultado es entero
+print(round(100/3))  -->33
+print(round(12/7,2)) -->  1.71   (2 decimales)
+
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+PROPIEDADES DE STRING 
+
+mi_texto = "hola mundo"
+INMUTABLE: una vez creados no se pueden modificar
+
+CONCATENABLES  
++
+
+MULTIPLICABLES 
+ *
+
+MULTILINEALES: 
+" "  "" ""
+
+VERIFICAR SU CONTENIDO: si ese substring existe
+print("hola" in mi_texto)
+
+CALCULAR LONGITUD
+len(mi_texto)
+-------------------------------------------------------------------------------------------------------------
+LISTAS
+numeros = [10,20,30,40]
+numeros[0] --> 10
+numeros[1:3] --> 20 30
+
+INDEXACION  print(lista_1[1:3])
+CANTIDAD DE ELEMENTOS print(len(lista_1))
+FUNCION SORT: ordena los elementos
+lista_3.sort()
+print(lista_3)
+['a']
+lista_4.reverse
+
+DEBUG
+
