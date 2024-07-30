@@ -1,0 +1,48 @@
+Programa simula un sistema de gestion de bibliotteca en python utilizando principios de 
+programación orientada a objetos y estructuras de datos como listas y ciclos. Aqui estan los
+puntos clave del funcionamiento del programa:
+
+1. Clases principales:
+
+    * Libro: Representa cada libro con atributos como título, autor y número de
+    ejemplares disponibles para préstamo. Contiene métodos para verificar listas
+    disponibilidad de ejemplares, tomar prestado un libro y devolverlo a la 
+    bibliotea.
+
+    * Usuario: Modela a cada usuario de la biblioteca con un nombre y una lista de 
+    libros que tienen prestados. Incluye metodos para gestionar los préstamos y 
+    devoluciones de libros.
+
+    * Biblioteca: Administra el conjunto de libros disponibles y los usuarios 
+    registrados. Ofrece métodos para agregar nuevos libros al catálogo, buscar
+    libros por título, mostrar el cátalogo completo de libros y gestionar las 
+    interacciones de préstamo y devolución entre usuarios y libros. 
+
+2. Funcionalidades del programa:
+
+    * Agregar libros: Permite al administrador de la biblioteca añadir nuevos libros 
+    al catálogo con detalles como título, autor y cantidad inicial de ejemplares. 
+
+    * Buscar libros: Los usuario pueden buscar libros especificos por su título en 
+    el catálogo de la biblioteca para verificar su disponibilidad.
+
+    * Prestar y devolver libros: Facilita a los usuarios tomar prestados ibros
+    disponibles y devolverlos cuando hayan terminado de usarlos. Gestiona la 
+    cantidad de ejemplares disponibles y actualiza el estado de préstamo de cada 
+    libro.
+
+    * Interacción del usuario: Utiliza ciclos para ofrecer un menú interactivo donde 
+    los usuarios pueden elegir diferente opciones, como buscar libros, prestar,
+    devolver, mostrar el catálogo de libros y registrar nuevos usuarios.
+
+3. Feedback y mensajes al usuario:
+
+    * Proporciona mensajes claros e informativos durante todas las operaciones, 
+    como confirmaciones de préstamo exitoso, devolución exitosa de libros o 
+    notificaciones de libros no disponibles para préstamo
+
+4. Validación y manejo de errores:
+
+    * Incluye validación para asegurar que los usuarios ingreses datos válidos 
+    como nombres de libros y nombres de usuarios existentes, y maneja 
+    correctamente situaciones donde no hay ejemplares disponibles para préstamo. 

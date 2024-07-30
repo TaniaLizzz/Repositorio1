@@ -28,3 +28,8 @@ print(modulo)
 num5 = 783
 raiz_cuadrada = num5 ** 0.5
 print(raiz_cuadrada)
+
+# mi_bool = 10 == 25
+# print(mi_bool)
+
+# mi_bool =  'blanco' == 'negro'

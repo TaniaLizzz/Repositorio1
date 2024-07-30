@@ -133,3 +133,7 @@ lista_4.reverse
 
 DEBUG
 
+CONDICIONALES
+if  si
+elif  sino si esta condicion es true
+else  sino 
