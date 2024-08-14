@@ -137,3 +137,12 @@ CONDICIONALES
 if  si
 elif  sino si esta condicion es true
 else  sino 
+
+
+
+--------------------
+
+ENUMERATE()
+llevar la cuenta de iteraciones, a traves de contador de indices de un iterable
+
+enumerate(iterable, inicio) -> valor int de incio del indice (por defecto inicia en 0)
